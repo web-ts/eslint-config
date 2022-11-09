@@ -1,5 +1,5 @@
 {
-  "name": "@web-ts/eslint-config",
+  "name": "@web-typescript/eslint-config",
   "private": false,
   "version": "0.0.1",
   "description": "eslint config for typescript + prettier + vue",
@@ -9,12 +9,24 @@
     "index.js"
   ],
   "author": "Web-ts",
-  "license": "MTI",
+  "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
     "eslint": "^8.27.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^9.7.0",
     "vue-eslint-parser": "^9.1.0"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-ts/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/web-ts/eslint-config/issues"
+  },
+  "homepage": "https://github.com/web-ts/eslint-config#readme"
 }

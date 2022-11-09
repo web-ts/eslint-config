@@ -22,7 +22,6 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
-    "turbo",
     "plugin:vue/vue3-recommended",
     "prettier",
     "plugin:@typescript-eslint/recommended",
